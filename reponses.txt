@@ -1,0 +1,19 @@
+
+Question 3)
+
+Magico Bus : GET / HTTP/1.1
+
+Magico Bus : Host: localhost:8080
+ 
+Magico Bus : User-Agent: curl/7.64.0
+ 
+Magico Bus : Accept: */*
+
+
+Question 4)
+
+GET : methode utilisée
+
+/ : ressource pointée
+
+HTTP/1.1 : protocole utilisée avec sa version

@@ -1,0 +1,11 @@
+1) "bind socketfd error: Address already in use"
+
+2) C'est un paramètre pour "scanner". En gros netcat va écouter sans vouloir
+lui donner d'informations, de données.
+
+3) "Unable to connect to remote host: Connection refused"
+La connexion est refusée car la commande telnet est écrite en ipv6.
+
+4) Le 1er client va être connecté normalement, et pourra avoir le message de 
+bienvenu. Mais le 2ème ne pourra pas.
+Il devra en effet attendre que le 1er finisse comme aux toilettes !
